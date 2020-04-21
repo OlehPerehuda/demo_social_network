@@ -1,0 +1,15 @@
+form {
+	color: white;
+}
+form input {
+	color: black;
+	border-radius: 5px;
+	margin: 5px;
+}
+form button {
+	color: black;
+	border-radius: 5px;
+}
+h1 {
+	color: white;
+}

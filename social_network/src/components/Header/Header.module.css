@@ -1,0 +1,11 @@
+.myHeader {
+	border-radius: 15px;
+    border: 1px solid white;
+    grid-gap: 10px;
+}
+.myHeader img {
+    grid-area: header;
+    height: 100%;
+    width: 100%;
+}
+

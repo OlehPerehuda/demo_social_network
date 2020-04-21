@@ -1,0 +1,39 @@
+.contact {
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+    border-radius: 15px;
+}
+.contactPhoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.contact div span{
+    margin-left: 10px;
+}
+div input {
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+    width: 15%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.selectedPage {
+    font-weight: bold;
+}
+.forSelectedPage {
+    padding: 5px;
+    color: white;
+}
+.forSelectedPage button {
+    color: black;
+    outline: none;
+    border-radius: 10px;
+}
+.forSelectedPage span {
+    margin: 0px 15px 0px;
+    cursor: pointer;
+}

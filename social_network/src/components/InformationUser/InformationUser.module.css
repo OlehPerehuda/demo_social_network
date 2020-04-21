@@ -1,0 +1,22 @@
+.informationUser {
+    grid-area: userInfo;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.loginBlock{
+    color: white;
+    float: right;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.loginBlock button {
+    color: black;
+    border-radius: 5px;
+}
+.loginBlock a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}

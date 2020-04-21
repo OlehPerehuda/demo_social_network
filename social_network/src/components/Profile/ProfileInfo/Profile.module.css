@@ -1,0 +1,54 @@
+.general {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.mainAction {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 0px;
+}
+.mainAction img{
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.mainAction .inputFile {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: auto;
+}
+.statusAndProfileData {
+    right: 0px;
+    width: 50%;
+}
+.status div {
+	width: 100%;
+	border: none;
+}
+.mainAction .status {
+	border: none;
+}
+.profileData {
+    color: white;
+    border: none;
+}
+.profileData button {
+    color: black;
+    border-radius: 5px;
+}
+.profileData input {
+    color: black;
+    border-radius: 5px;
+    outline: none;
+}
+.profileData textarea {
+    color: black;
+    border-radius: 5px;
+}
+.statusInput {
+    outline: none;
+    border-radius: 15px;
+    padding-left: 5px;
+}

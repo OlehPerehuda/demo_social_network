@@ -1,0 +1,27 @@
+.searchItem {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+}
+.iconsForSearch {
+    width: 100%;
+    height: 50%;
+}
+.iconsForSearch ul {
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    text-align: center;
+}
+.iconsForSearch ul li {
+    list-style-type: none;
+    display: inline;
+    border: none;
+}
+.iconsForSearch ul li i {
+    color: white;
+}
+.iconsForSearch ul li i:hover {
+    color: white;
+}

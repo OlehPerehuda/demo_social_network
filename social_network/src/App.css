@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+ background: linear-gradient(90deg, rgba(0, 0, 0) 0%, rgba( 6, 6, 6, 1) 35%, rgba(40,36,47,1) 100%);
+  padding: 10px;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+          "header userInfo"
+          "searchItem content"
+          "nav content";
+  grid-template-rows: 0.1fr 0.1fr 0.2fr;
+  grid-template-columns: 0.15fr 0.85fr; 
+  grid-gap: 10px;
+  margin: 0px auto;
+  border: none;
+}
+.app-wrapper-content {
+  grid-area: content;
+  height: 100%;
+  border: none;
+  padding: 10px;
+}
+
+
+

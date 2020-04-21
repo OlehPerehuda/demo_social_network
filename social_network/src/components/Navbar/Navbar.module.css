@@ -1,0 +1,54 @@
+.myNav {
+    grid-area: nav;
+
+}
+.myNav ul {
+    padding-left: 0px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+ul li {
+    text-align: left;
+    border-radius: 15px;
+    border: 1px solid white;
+    z-index: 1;
+    height: auto;
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    font-family: "Lucida Sans Typewriter";
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+.item {
+    color: white;
+}
+.item:active {
+    text-decoration: none;
+}
+.item:visited {
+    text-decoration: none;
+}
+.item:hover {
+    background-color: white;
+    color: black;
+}
+.item .NavLink {
+    color: white;
+    text-decoration: none;
+}
+.item .NavLink:active {
+    text-decoration: none;
+    color: black;
+}
+.item .NavLink:visited {
+    text-decoration: none;
+}
+.item .NavLink:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
